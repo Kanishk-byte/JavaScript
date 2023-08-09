@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators JS</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <script>
+
+        //Operators
+        console.log(10 > 50)
+        console.log(40 < 50)
+        console.log(5 == '5')            //Java Script mai integer ki value or string ki value same hooti hai or value check karwane      
+        // ke liye === lagana pdta hai
+        console.log(10 != 5)
+        console.log('A' > 'B')
+        console.log('a' < 'b')
+        console.log(10 > 5 && 4 > 10)
+        console.log(7 > 4 || 4 > 10)
+
+        //-------------Conditional Statements --> if,else,else-if,nested,if and else,switch are conditional statements-------------------
+
+        // let age = 18
+
+        // if(age >= 18){
+        //     console.log("bhai tu vote de skta hai")
+        // }
+        // else{
+        //     console.log("bhai tu vote nhi de skta")
+        // }
+
+        //---------------------------------------Prompt --> Prompt input dene ke liye use hota hain--------------------------------------
+
+        // let a=prompt("Enter your age")
+
+        // if(a >= 18){
+        //     console.log("bhai tu vote de skta hai")
+        // }
+        // else{
+        //     console.log("bhai tu vote nhi de skta")
+        // }
+
+        //-----------------------------------------------------Nested if - else --> ----------------------------------------------------- 
+        // let age=prompt("Enter your age")
+
+        // if(age >= 18){
+        //     console.log("tu pakka vote dega jaake vote deke aa lwde")
+        // }
+
+        // else if(age > 10 && age < 18){
+        //     console.log("chal bhai tera baby vote lag skta hai")
+        // }
+        // else{
+        //     console.log("tu toh bilkul bhi vote nhi de skta")
+        // }
+
+        //-----------------------------------------------------Greatest Integer---------------------------------------------------------- 
+        // let a= Number(prompt('Enter the value of a'))
+        // let b= Number(prompt('Enter the value of a'))
+        // let c= Number(prompt('Enter the value of a'))
+
+
+        // if(a>b && a>c){
+        //     console.log(a)
+        // }
+        // else if(b>a && b>c){
+        //     console.log(b)
+        // }
+        // else{
+        //     console.log(c)
+        // }
+
+        //--------------------------------------------------------Switch Csae------------------------------------------------------------
+        // let a =Number(prompt('Enter no from 1 to 7'))
+        // switch (a) {
+        //     case 1: if (a==1)
+        //         console.log("Monday")
+        //     case 2: if (a==2)
+        //         console.log("Wednesday")
+        //     case 3: if (a==3)
+        //         console.log("Tuesday")
+        //     case 4: if (a==4)
+        //         console.log("Thrusday")
+        //     case 5: if (a==5)
+        //         console.log("Friday")
+        //     case 6: if (a==6)
+        //         console.log("Saturay")
+        //     case 7: if (a==7)
+        //         console.log("Sunday")
+        // }
+
+        //-----------------------------------------------------Even Number and Odd Number------------------------------------------------
+        // let a =Number(prompt("Enter the number"))
+        // if(a%2 == 0){
+        //     console.log("The number is even")
+        // }
+        // else {
+        //     console.log("The number is odd")
+        // }
+
+        //---------------------------------------------------Positive Integer or Not-----------------------------------------------------
+
+
+
+        //---------------------------------------------------Alphabet or Not-------------------------------------------------------------
+        let a =Number(prompt("Enter the number"))
+        if(a>='A' && a<='Z' || a>='a' && a<='z'){
+            console.log("This is a alphabet",a)
+        }
+        else if(a > 0 || a < 0){
+            console.log("This is a number",a)
+        }
+        else{
+            console.log("Speacial Character")
+        }
+    </script>
+</body>
+
+</html>
