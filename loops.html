@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <script>
+        //------------------------------------------------------While Loop---------------------------------------------------------------
+        /*
+        let i=Number(prompt("Enter number"))
+        while(i <= 100){
+            console.log(i)
+            i++
+        }
+
+        //Number ka Half Print Hojaye
+        */
+        // let i=Number(prompt("Enter number"))
+        // let a = 0
+        // while(a <= i/2){
+        //     console.log(a)
+        //     a++
+        // }
+
+        //----------------------------------------------Number Ka half gayab hoo jaye----------------------------------------------------
+        /*
+        let i = Number(prompt("Enter number"))
+        let a = 0
+        while (a <= i) {
+            if (a == i / 2) {
+                console.log(" ")
+                a++
+            }
+            else {
+                console.log(a)
+                a++
+            }
+        }
+        */
+
+        //------------------------------odd number par odd likha aa jaye side mai or even par even---------------------------------------- 
+        /*
+        let i = Number(prompt("Enter number"))
+        let a = 0
+        while (a <= i) {
+            if (a % 2 == 0) {
+                console.log(a, "even")
+            }
+            else {
+                console.log(a, "odd")
+            }
+            a++
+        }
+        */
+
+        //-----------------------------------------------------No of Digits--------------------------------------------------------------
+        // let a = Number(prompt("Enter the number"))
+        // let count = 0
+        // while (a>0) {
+        //     a = parseInt(a/10)
+        //     count++
+        // }
+        // console.log(count)
+
+        //-----------------------------------------------------Sum of Digits-------------------------------------------------------------
+        let i = Number(prompt("Enter the number"))
+        let x = 0
+        while (i > 0) {
+            let a = i%10
+            x = x+a
+            i = parseInt(i / 10)
+        }
+        console.log(x)
+    </script>
+</body>
+
+</html>
