@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+</head>
+
+<body>
+    <script>
+        //Sides of Triangle
+        let a = Number(prompt("Enter First Side"))
+        let b = Number(prompt("Enter Second Side"))
+        let c = Number(prompt("Enter Third Side"))
+
+        if ((a == b) && (b == c)) {
+            console.log("Triangle is equilateral")
+        }
+        else if((a == b) || (b == c) || (c == a)){
+            console.log("Triangle is Isoscales")
+        }
+        else{
+            console.log("Triangle is Scalene")
+        }
+    </script>
+</body>
+
+</html>
