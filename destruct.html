@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destruct</title>
+</head>
+<body>
+    <input id="inp" type="text" placeholder="Enter Friend's name here">
+    <button id="btn1">Add to array</button>
+    <button id="btn2">Print names</button>
+    
+    <script>
+
+        document.getElementById("btn1").onclick = function(){
+            let name = document.getElementById("inp").value
+            console.log(name)
+
+            document.getElementById("btn2").onclick = function(){
+                let b = document.getElementById("inp").value
+                document.write(b)
+            }
+        }
+
+
+
+        // let [a,b,c] = [10,20,30]
+        // console.log(a)
+        // console.log(b)
+        // console.log(c)
+
+        // Sprid Operator
+        // let [a,...b] = [10,20,30,40]
+        // console.log(a)
+        // console.log(b)
+
+        // var [first = "Jhon", second = first] = ["Harry","Sam"];
+        // console.log(first);
+        // console.log(second)
+
+        // var [first = "Jhon", second = first] = ["Sam"];
+        // console.log(first);
+        // console.log(second)
+
+        // var [first = "Jhon", second = first] = [];
+        // console.log(first);
+        // console.log(second)
+
+        // var numbers = [5,[2,3,4],12,14];
+        // var [a,[x,y,z]] = numbers;
+
+        // console.log(a)
+        // console.log(x);
+        // console.log(y);
+        // console.log(z);
+
+        // setInterval(function(){
+        //     console.log("Hello!!")
+        // }, 1000)
+        
+        // setTimeout(function(){
+        //     console.log("Hello!!")
+        // }, 3000)
+
+    </script>
+</body>
+</html>
